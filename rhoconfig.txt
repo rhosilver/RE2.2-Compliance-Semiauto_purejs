@@ -15,6 +15,7 @@ rhobundle_zip_pwd = nil
 # 0-trace, 1-info(app level), 2-warnings, 3-errors
 # for production set to 3
 MinSeverity  = 1 
+LogFilePath = '/mnt/sdcard/re22_js.log'
 
 # enable copy log messages to standard output, useful for debugging
 LogToOutput = 1
