@@ -1,6 +1,6 @@
 ---
 sdkversion: 5.0.0
-name: RE_2.2_Compliance_semiauto
+name: RE_2.2_Compliance_semiauto_purejs
 version: '1.0'
 vendor: rhomobile
 build: debug
