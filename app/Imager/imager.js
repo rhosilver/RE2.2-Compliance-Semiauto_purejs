@@ -34,6 +34,10 @@ function selectImager(){
 				"Steps":[],
 				"ExpectedOutcome":["Lamp should be on and illumination should go on.","Aiming should be on.","Reticle should be there","Image should be catured"],
 				"testToPerform":function(){
+					imager.left = 20;
+					imager.top = 20;
+					imager.height = 100;
+					imager.width = 100;
 					imager.lamp = 'on';
 					imager.aim = 'on';
 					enableImager();
@@ -48,6 +52,10 @@ function selectImager(){
 				"Steps":[],
 				"ExpectedOutcome":["imager event should fire and appropriate transferResult value should be returned by event.","Image should be captured and transferred to specified FTP location."],
 				"testToPerform":function(){
+					imager.left = 20;
+					imager.top = 20;
+					imager.height = 100;
+					imager.width = 100;
 					var Destination = "ftp://10.233.85.82/Received/imageInFTP.bmp";
 					enableImager();
 					imager.username = 'ftpadmin';
@@ -67,7 +75,7 @@ function selectImager(){
 				"ExpectedOutcome":["The captured Image should dispalyed on page."],
 				"testToPerform":function(){
 					enableImager();
-					imager.left = 200;
+					imager.left = 20;
 					imager.top = 20;
 					imager.height = 100;
 					imager.width = 100;
